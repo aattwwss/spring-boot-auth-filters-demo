@@ -3,5 +3,7 @@ This project is to explore the different ways we can configure the authenticatio
 
 | Endpoint    | Authentication Type |
 |-------------|---------------------|
-| /api/*      | JWT                 |
-| /callback/* | HMAC                |
+| /jwt/*      | JWT                 |
+| /hmac/*     | HMAC                |
+| /basic/*    | BASIC               |
+| /digest/*   | digest              |
